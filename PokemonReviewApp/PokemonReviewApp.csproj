@@ -20,8 +20,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Interfaces\IPokemonRepository.cs" />
   </ItemGroup>
 
 </Project>
